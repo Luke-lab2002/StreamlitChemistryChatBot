@@ -10,10 +10,22 @@ This project aims to develop an advanced chatbot system by combining the power o
 
 ## Setup
 
+before you run app, you should create file```.env``` in folder project
+
+```
+BACKEND_API= #url backend api
+```
+
+setup and run project:
 ```bash 
+# clone project
 git clone https://github.com/Luke-lab2002/StreamlitChemistryChatBot.git
 
 cd StreamlitChemistryChatBot
 
+# install library
+pip install -r requirements.txt
+
+# running
 streamlit run app.py
 ```
