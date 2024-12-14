@@ -1,0 +1,3 @@
+streamlit==1.40.2
+st-cookies-manager==0.2.2
+dotenv
